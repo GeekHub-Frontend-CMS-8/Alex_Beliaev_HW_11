@@ -1,0 +1,27 @@
+{
+  "name": "work11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW_11.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW_11/issues"
+  },
+  "homepage": "https://github.com/GeekHub-Frontend-CMS-8/Alex_Beliaev_HW_11#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2"
+  }
+}

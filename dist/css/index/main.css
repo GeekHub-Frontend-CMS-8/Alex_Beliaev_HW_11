@@ -1,0 +1,99 @@
+/* Amsdam Regular */
+@font-face {
+  font-family: "Amsdam";
+  src: url("../../fonts/Amsdam/Amsdam Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.container {
+  display: flex;
+  max-width: 1115px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+.slider-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.section-slider {
+  width: 100%;
+  height: 100vh;
+  background: url("../../img/index/slider/image-1.png") no-repeat center;
+  background-size: cover; }
+  .section-slider .slider-content {
+    text-align: center; }
+    .section-slider .slider-content .top-text {
+      color: #fff;
+      font-family: "Crimson Text", serif;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 2px; }
+    .section-slider .slider-content h1 {
+      color: #fff;
+      font-family: "Amsdam", cursive;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 200.4px;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+
+.content-headline-text {
+  position: relative; }
+  .content-headline-text img {
+    position: absolute;
+    top: 25%;
+    left: 0; }
+
+.content-button-started {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .content-button-started a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat Regular", "Montserrat", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: 2px #fff solid;
+    padding: 20px 30px;
+    transition: 0.3s; }
+  .content-button-started .circle-down {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    top: 85%; }
+  .content-button-started .arrow-down {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    top: 100%; }
+  .content-button-started a:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.3s; }
+    .content-button-started a:hover .circle-down {
+      color: #000; }
+    .content-button-started a:hover .arrow-down {
+      top: 110%;
+      transition: 0.3s;
+      color: #000; }
+
+.slider-button {
+  position: fixed;
+  width: 130%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px; }
+  .slider-button a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px; }

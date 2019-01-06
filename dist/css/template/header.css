@@ -1,0 +1,83 @@
+header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: #fff; }
+
+.header-container {
+  justify-content: space-between;
+  align-items: center; }
+
+.header-block-logo a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none; }
+  .header-block-logo a h2 {
+    margin-left: 10px;
+    padding-bottom: 2px;
+    color: #757575;
+    font-family: "Montserrat Bold", "Arial Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+.header-block-nav {
+  display: inherit; }
+  .header-block-nav li {
+    margin: 10px; }
+    .header-block-nav li a {
+      color: #aaa;
+      font-family: "Montserrat Regular", "Montserrat", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: 0.3s; }
+      .header-block-nav li a:after {
+        background-color: #5e585a;
+        display: block;
+        content: "";
+        height: 2px;
+        width: 0%;
+        -webkit-transition: width .3s ease-in-out;
+        -moz--transition: width .3s ease-in-out;
+        transition: width .3s ease-in-out; }
+      .header-block-nav li a:hover {
+        color: #5e585a;
+        transition: 0.3s; }
+      .header-block-nav li a:hover:after, .header-block-nav li a:focus:after {
+        width: 100%; }
+
+.header-social-language {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header-social-language .small-border {
+    border-right: 2px #aaa solid;
+    padding-right: 5px; }
+  .header-social-language .medium-border {
+    border-right: 3px #aaa solid;
+    padding-right: 5px; }
+  .header-social-language a {
+    display: inline-block;
+    color: #aaa;
+    text-decoration: none;
+    padding: 0 3px;
+    transition: 0.3s; }
+    .header-social-language a:hover {
+      color: #5e585a;
+      transition: 0.3s; }
+  .header-social-language button {
+    padding: 0;
+    background: transparent;
+    border: transparent;
+    color: #aaa;
+    font-family: "Montserrat Bold", "Arial Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: 0.3s; }
+    .header-social-language button:hover {
+      color: #5e585a;
+      transition: 0.3s; }
