@@ -1,0 +1,20 @@
+.section-about_us {
+  width: 100%;
+  height: 100vh;
+  background: #e3e3e3; }
+
+.about_us-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.about_us-block-content .image-top-block {
+  width: 1170px;
+  height: 325px;
+  background: #aaaaaa url("../../img/index/about_us/content/image1.png") no-repeat center;
+  background-size: cover; }
+
+.about_us-block-content .content-block {
+  width: 1170px;
+  height: 427px;
+  background-color: #fff; }
