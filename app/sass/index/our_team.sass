@@ -1,0 +1,157 @@
+@import "../variables"
+
+.section-team
+  background: #aeb3b2 url("../../img/index/team/background.png") no-repeat center
+  background-size: cover
+
+
+.team-container-main
+  padding-top: 50px
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+
+.team-container
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
+  padding: 30px 0
+
+  .team-item
+    margin: 25px 15px
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+
+.overlay-team-item
+  position: absolute
+  background: #fff
+  opacity: 0
+  height: 72%
+  width: 80%
+  display: flex
+  justify-content: flex-end
+  align-items: flex-start
+  flex-direction: column
+  padding: 40px 20px
+  transition: 0.7s
+
+  //ANIMATION
+  &:hover
+    opacity: 0.7
+    transition: 0.3s
+    //NAME
+    .overlay-team-item-name
+      opacity: 1
+      transition: 0.7s
+
+      &:after /* BORDER */
+        width: 100%
+        transition: 1s
+    //SOCIAL
+    .overlay-team-item-social
+      .small-border
+        opacity: 1
+        transition: 1.5s
+
+      .medium-border
+        opacity: 1
+        transition: 1.8s
+
+      #team-overlay-social-animation-facebook
+        opacity: 1
+        transition: 1.5s
+
+      #team-overlay-social-animation-twitter
+        opacity: 1
+        transition: 1.8s
+
+      button
+        opacity: 1
+        transition: 2s
+
+
+
+
+
+.overlay-team-item-name
+  opacity: 0
+
+  &:after
+    display: block
+    content: ""
+    height: 2px
+    width: 0%
+    margin-top: 10px
+    background-color: #515151
+    transition: width .3s ease-in-out
+
+  h3
+    color: #3e3d3d
+    font-family: "Montserrat Medium", sans-serif
+    font-size: 13px
+    font-weight: 600
+    line-height: 18px
+    letter-spacing: 1.47px
+
+  span
+    color: #3e3d3d
+    font-family: "Crimson Text Regular", serif
+    font-size: 14px
+    font-weight: 900
+    font-style: italic
+    line-height: 18px
+
+.overlay-team-item-social
+  padding-top: 10px
+  display: flex
+  justify-content: flex-start
+  align-items: center
+
+
+
+  .small-border
+    border-right: 1px #3e3d3d solid
+    padding-right: 5px
+
+    opacity: 0
+
+  .medium-border
+    border-right: 2px #3e3d3d solid
+    padding-right: 2px
+
+    opacity: 0
+
+  a
+    text-decoration: none
+    color: #3e3d3d
+    margin: 3px
+    transition: 0.3s
+    &:hover
+      color: #000
+      transition: 0.3s
+
+
+  button
+    padding: 0
+    background: transparent
+    border: transparent
+    color: #3e3d3d
+    font-family: $font-montserrat-bold
+    font-size: 20px
+    font-weight: 600
+    margin-left: 5px
+    transition: 0.3s
+
+    opacity: 0
+
+    &:hover
+      color: #000
+      transition: 0.3s
+
