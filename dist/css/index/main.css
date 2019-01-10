@@ -552,3 +552,126 @@
     .overlay-team-item-social button:hover {
       color: #000;
       transition: 0.3s; }
+
+.section-portfolio {
+  background: #fff; }
+
+.portfolio-container-main {
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.portfolio-block-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px; }
+  .portfolio-block-buttons button, .portfolio-block-buttons a {
+    margin: 10px 2px;
+    font-family: "Montserrat Medium", sans-serif; }
+
+.portfolio-container-image {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden; }
+
+.section-prices {
+  background: #e3e3e3; }
+
+.prices-container-main {
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.prices-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.price-item {
+  margin: 20px 15px;
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+  .price-item h3 {
+    color: #3e3d3d;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.47px; }
+  .price-item img {
+    margin-top: 20px; }
+  .price-item h2 {
+    margin-top: 40px;
+    color: #3e3d3d;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    padding-left: 20px;
+    position: relative; }
+    .price-item h2:before {
+      content: '$';
+      font-size: 30px;
+      position: absolute;
+      left: -5px;
+      top: -8px; }
+  .price-item p {
+    margin: 50px 0;
+    max-width: 150px;
+    color: #3e3d3d;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px; }
+  .price-item a {
+    padding: 13px 35px; }
+
+.section-block-purchase {
+  background: #2d2d2f; }
+
+.block-purchase-container {
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center; }
+
+.block-purchase-content {
+  padding: 0 30px;
+  margin-left: 20px;
+  margin-right: 80px; }
+  .block-purchase-content h2 {
+    color: #d8d8d8;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 1.81px; }
+  .block-purchase-content p {
+    margin-top: 15px;
+    max-width: 600px;
+    color: #888888;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px; }
+
+.purchase-button-style {
+  padding: 13px 35px;
+  color: #e3e3e3;
+  border: #e3e3e3 2px solid; }
+  .purchase-button-style:hover {
+    background: #fff;
+    color: #2d2d2f; }

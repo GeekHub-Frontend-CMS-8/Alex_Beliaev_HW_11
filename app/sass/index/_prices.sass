@@ -1,0 +1,70 @@
+@import "../variables"
+
+.section-prices
+  background: $background-color-x
+
+.prices-container-main
+  padding: 50px 0
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+
+.prices-container
+  margin-top: 80px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
+
+
+.price-item
+  margin: 20px 15px
+  text-align: center
+  background-color: #fff
+  padding: 50px 60px
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  flex-direction: column
+
+  h3
+    color: #3e3d3d
+    font-family: "Montserrat Medium", sans-serif
+    font-size: 13px
+    font-weight: 600
+    line-height: 18px
+    text-transform: uppercase
+    letter-spacing: 1.47px
+
+  img
+    margin-top: 20px
+
+  h2
+    margin-top: 40px
+    color: #3e3d3d
+    font-family: "Montserrat Medium", sans-serif
+    font-size: 70px
+    font-weight: 700
+    padding-left: 20px
+    position: relative
+
+
+    &:before
+      content: '$'
+      font-size: 30px
+      position: absolute
+      left: -5px
+      top: -8px
+
+  p
+    margin: 50px 0
+    max-width: 150px
+    color: #3e3d3d
+    font-family: "Crimson Text", sans-serif
+    font-size: 16px
+    font-style: italic
+    line-height: 30px
+
+  a
+    padding: 13px 35px
