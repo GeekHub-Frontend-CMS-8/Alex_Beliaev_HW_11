@@ -1,0 +1,58 @@
+@import "../variables"
+
+.section-testimonials
+  background: #2d2d2f url("../../img/index/testimonials/background.png") no-repeat center
+  background-size: cover
+
+.testimonials-container
+  padding: 50px 0
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+.testimonials-quotes
+  margin-top: 50px
+  text-align: center
+  max-width: 720px
+  padding: 0 15px
+  color: #efefef
+  font-family: "Crimson Text", sans-serif
+  font-size: 20px
+  font-style: italic
+  line-height: 24px
+  position: relative
+
+  &:before
+    content: '“'
+    font-size: 100px
+    position: absolute
+    left: -30px
+    top: 15px
+
+  &:after
+    content: '„'
+    font-size: 100px
+    position: absolute
+    top: 0
+    right: 40px
+
+.testimonials-author-name
+  margin-top: 60px
+  color: #e3e3e3
+  font-family: "Montserrat", sans-serif
+  font-size: 15px
+  font-weight: 600
+  line-height: 18px
+  text-transform: uppercase
+  letter-spacing: 1.47px
+
+.testimonials-author-work
+  margin-top: 15px
+  color: #efefef
+  font-family: "Crimson Text", sans-serif
+  font-size: 13px
+  font-style: italic
+  line-height: 24px
+
+.testimonials-nav
+  margin-top: 50px

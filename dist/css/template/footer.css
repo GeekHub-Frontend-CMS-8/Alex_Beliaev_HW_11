@@ -1,0 +1,174 @@
+footer {
+  background-color: #292929; }
+
+.footer-container {
+  padding-top: 50px;
+  max-width: 1300px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.footer-left-block {
+  width: 30%;
+  margin-bottom: 50px; }
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; }
+  .footer-logo span {
+    display: inline-block;
+    color: #fff;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-left: 15px;
+    padding-bottom: 2px; }
+
+.footer-description {
+  margin-top: 30px;
+  max-width: 360px;
+  color: #949494;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.31px;
+  letter-spacing: 1.4px; }
+
+.footer-name-studio {
+  margin-top: 40px;
+  color: #e3e3e3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px; }
+
+.footer-phisical-address {
+  margin-top: 20px;
+  max-width: 230px;
+  color: #949494;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.31px;
+  letter-spacing: 1.4px; }
+
+.footer-contacts {
+  color: #e3e3e3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px; }
+
+.footer-contacts-email {
+  margin-top: 30px; }
+
+.footer-social-language {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .footer-social-language .small-border {
+    border-right: 2px #aaa solid;
+    padding-right: 5px; }
+  .footer-social-language .medium-border {
+    border-right: 3px #aaa solid;
+    padding-right: 5px;
+    margin-left: 5px; }
+  .footer-social-language a {
+    display: inline-block;
+    color: #aaa;
+    text-decoration: none;
+    padding: 0 3px;
+    transition: 0.3s; }
+    .footer-social-language a:hover {
+      color: #5e585a;
+      transition: 0.3s; }
+  .footer-social-language button {
+    padding: 0;
+    background: transparent;
+    border: transparent;
+    color: #aaa;
+    font-family: "Montserrat Bold", "Arial Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: 0.3s; }
+    .footer-social-language button:hover {
+      color: #5e585a;
+      transition: 0.3s; }
+
+.footer-right-block {
+  width: 70%;
+  display: flex;
+  flex-direction: column; }
+
+.footer-form-small-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.footer-style-input {
+  background: transparent;
+  border: 2px #464646 solid;
+  border-radius: 2px;
+  padding: 15px 20px;
+  width: 40%;
+  margin: 1% 1.5%;
+  color: #949494;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20.31px;
+  letter-spacing: 1.4px;
+  transition: 0.3s; }
+  .footer-style-input:focus {
+    transition: 0.3s;
+    border: #878c8b 2px solid;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1); }
+
+.footer-style-textarea {
+  padding: 15px;
+  width: 89%;
+  height: 5em; }
+
+.footer-button-submit {
+  width: 15%;
+  margin-left: 2%;
+  margin-top: 2%;
+  background: #464646;
+  border: transparent;
+  color: #e3e3e3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 44.32px;
+  letter-spacing: 1.47px;
+  transition: 0.3s; }
+  .footer-button-submit:hover {
+    transition: 0.3s;
+    background: #aaaaaa;
+    color: #2d2d2f; }
+
+.footer-down {
+  width: 100%;
+  border-top: 1px #3e3e3e solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0; }
+  .footer-down span {
+    color: #949494;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20.31px;
+    letter-spacing: 1.4px; }
